@@ -16,7 +16,7 @@ function App() {
   }
 
   return (
-    <div className="flex items-center justify-center h-screen bg-[#424874] font-['Kanit'] py- ">
+    <div className="flex items-center justify-center h-screen bg-[#424874] font-['Kanit'] ">
       <div className="text-center">
         <h1 className="md:text-6xl text-4xl font-bold mb-5 text-[#DCD6F7] tracking-[.05em] animate__animated animate__fadeInDown animate__delay-.5s  ">{info.title}</h1>
         <div>
