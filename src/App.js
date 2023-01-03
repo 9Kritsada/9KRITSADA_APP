@@ -1,6 +1,7 @@
 import { Typewriter } from "react-simple-typewriter";
 import Button from "./components/Button.jsx";
 import "animate.css";
+import Particle from "./components/Particle.jsx";
 
 function App() {
   const links = [
@@ -22,7 +23,8 @@ function App() {
   const words = [{ title: "Student" }, { title: "Web Developer" }];
   // text-[#DCD6F7]
   return (
-    <div className="flex items-center justify-center h-screen font-['Kanit'] bg-gradient-to-tr from-[#707898] via-[#424874] to-[#1B1D2E] cursor-default">
+    <div className="flex items-center justify-center h-screen font-['Kanit'] bg-gradient-to-tr from-[#7178AD] via-[#434975] to-[#1E2034] cursor-default selection:bg-[#a6b1e1] selection:text-[#ffffff]">
+      <Particle />
       <div className="text-center z-10">
         <h1 className="md:text-6xl text-4xl font-bold mb-5 text-transparent bg-clip-text bg-gradient-to-r from-[#DCD6F7] to-[#CACFD6] tracking-[.05em] animate__animated animate__fadeInDown animate__delay-.5s  ">
           {info.title}
