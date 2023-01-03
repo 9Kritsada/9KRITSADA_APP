@@ -16,7 +16,7 @@ function App() {
       icon: "fa-brands fa-instagram",
     },
     {
-      name: "mail",
+      name: "gmail",
       url: "mailto:kritsada.wiriya@gmail.com",
       icon: "fa-regular fa-envelope",
     },
@@ -42,7 +42,6 @@ function App() {
             <span>I'm a </span>
             <span>
               <Typewriter
-                delay={5000}
                 words={words.map((e) => {
                   return `${e.title}`;
                 })}
@@ -51,6 +50,7 @@ function App() {
                 cursorStyle="|"
                 typeSpeed={40}
                 deleteSpeed={40}
+                delaySpeed={5000}
               />
             </span>
           </h1>
