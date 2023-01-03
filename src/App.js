@@ -42,15 +42,15 @@ function App() {
             <span>I'm a </span>
             <span>
               <Typewriter
+                delay={5000}
                 words={words.map((e) => {
                   return `${e.title}`;
                 })}
                 loop={0}
                 cursor
                 cursorStyle="|"
-                typeSpeed={60}
+                typeSpeed={40}
                 deleteSpeed={40}
-                delaySpeed={5000}
               />
             </span>
           </h1>
