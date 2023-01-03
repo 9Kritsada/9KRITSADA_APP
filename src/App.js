@@ -26,8 +26,8 @@ function App() {
   };
 
   const words = [
-    { title: "Student." }, 
-    { title: "Web Developer." }
+    { title: "Student" }, 
+    { title: "Web Developer" }
   ];
   // text-[#DCD6F7]
   return (
@@ -47,7 +47,7 @@ function App() {
                 })}
                 loop={0}
                 cursor
-                cursorStyle="|"
+                cursorStyle="."
                 typeSpeed={40}
                 deleteSpeed={40}
                 delaySpeed={5000}
