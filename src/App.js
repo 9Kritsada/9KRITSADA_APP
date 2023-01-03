@@ -25,7 +25,10 @@ function App() {
     title: "9KRITSADA",
   };
 
-  const words = [{ title: "Student" }, { title: "Web Developer" }];
+  const words = [
+    { title: "Student." }, 
+    { title: "Web Developer." }
+  ];
   // text-[#DCD6F7]
   return (
     <div className="flex items-center justify-center h-screen font-['Kanit'] bg-gradient-to-tr from-[#7178AD] via-[#434975] to-[#1E2034] cursor-default selection:bg-[#a6b1e1] selection:text-[#ffffff] px-3">
@@ -40,7 +43,7 @@ function App() {
             <span>
               <Typewriter
                 words={words.map((e) => {
-                  return `${e.title} `;
+                  return `${e.title}`;
                 })}
                 loop={0}
                 cursor
