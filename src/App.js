@@ -48,7 +48,7 @@ function App() {
                 loop={0}
                 cursor
                 cursorStyle="|"
-                typeSpeed={40}
+                typeSpeed={60}
                 deleteSpeed={40}
                 delaySpeed={5000}
               />
