@@ -31,14 +31,14 @@ function App() {
   ];
   // text-[#DCD6F7]
   return (
-    <div className="flex items-center justify-center h-screen font-['Rubik'] bg-gradient-to-tr from-[#7178AD] via-[#434975] to-[#1E2034] cursor-default selection:bg-[#a6b1e1] selection:text-[#ffffff] px-3">
+    <div className="flex items-center justify-center h-screen font-['Kanit'] bg-gradient-to-tr from-[#7178AD] via-[#434975] to-[#1E2034] cursor-default selection:bg-[#a6b1e1] selection:text-[#ffffff] px-3">
       <Particle />
       <div className="text-center z-10">
-        <h1 className="min-[480px]:text-6xl min-[320px]:text-5xl text-4xl font-black mb-5 drop-shadow-lg text-[#DCD6F7] subpixel-antialiased animate__animated animate__fadeInDown animate__delay-.5s  ">
+        <h1 className="min-[380px]:text-6xl min-[320px]:text-5xl text-4xl font-bold mb-5 drop-shadow-lg text-[#DCD6F7] subpixel-antialiased animate__animated animate__fadeInDown animate__delay-.5s  ">
           {info.title}
         </h1>
         <div>
-          <h1 className="min-[480px]:text-3xl min-[320px]:text-2xl text-xl font-thin text-[#A6B1E1] animate__animated animate__fadeIn drop-shadow-lg">
+          <h1 className="min-[480px]:text-3xl min-[320px]:text-2xl text-xl font-['Kalam'] font-thin text-[#A6B1E1] animate__animated animate__fadeIn">
             <span>I'm a </span>
             <span>
               <Typewriter
@@ -55,7 +55,7 @@ function App() {
             </span>
           </h1>
         </div>
-        <hr className="my-5 mx-auto w-56 h-1 bg-[#DCD6F7] rounded border-0 drop-shadow-lg"></hr>
+        <hr className="my-5 mx-auto w-56 h-1 bg-[#DCD6F7] rounded border-0 drop-shadow-lg px-5"></hr>
         <div className="flex flex-wrap justify-center animate__animated animate__fadeInUp animate__delay-1s">
           {links.map((e) => {
             return <Button name={e.name} link={e.url} icon={e.icon} />;
