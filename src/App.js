@@ -50,7 +50,7 @@ function App() {
                 cursorStyle="."
                 typeSpeed={40}
                 deleteSpeed={40}
-                delaySpeed={5000}
+                delaySpeed={3000}
               />
             </span>
           </h1>
