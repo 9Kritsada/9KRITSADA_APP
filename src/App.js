@@ -1,7 +1,6 @@
 import { Typewriter } from "react-simple-typewriter";
 import Button from "./components/Button.jsx";
 import "animate.css";
-import Particle from "./components/Particle.jsx";
 
 function App() {
   const links = [
@@ -32,7 +31,6 @@ function App() {
   // text-[#DCD6F7]
   return (
     <div className="flex items-center justify-center h-screen font-['Kanit'] bg-gradient-to-tr from-[#7178AD] via-[#434975] to-[#1E2034] cursor-default selection:bg-[#a6b1e1] selection:text-[#ffffff] px-3">
-      <Particle />
       <div className="text-center z-10">
         <h1 className="min-[380px]:text-6xl min-[320px]:text-5xl text-4xl font-bold mb-5 drop-shadow-lg text-[#DCD6F7] subpixel-antialiased animate__animated animate__fadeInDown animate__delay-.5s  ">
           {info.title}
@@ -55,7 +53,7 @@ function App() {
             </span>
           </h1>
         </div>
-        <hr className="my-5 mx-auto w-56 h-1 bg-[#DCD6F7] rounded border-0 drop-shadow-lg px-5"></hr>
+        <hr className="my-5 mx-auto w-56 h-1 bg-[#DCD6F7] rounded border-0 px-5"></hr>
         <div className="flex flex-wrap justify-center animate__animated animate__fadeInUp animate__delay-1s">
           {links.map((e) => {
             return <Button name={e.name} link={e.url} icon={e.icon} />;
