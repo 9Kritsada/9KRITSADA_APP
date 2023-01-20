@@ -1,6 +1,7 @@
 import { Typewriter } from "react-simple-typewriter";
 import Button from "./components/Button.jsx";
 import "animate.css";
+import avatar from "./img/peeps-avatar.png";
 
 function App() {
   const links = [
@@ -35,8 +36,11 @@ function App() {
         <h1 className="min-[380px]:text-6xl min-[320px]:text-5xl text-4xl font-bold mb-5 drop-shadow-lg text-[#DCD6F7] subpixel-antialiased animate__animated animate__fadeInDown animate__delay-.5s  ">
           {info.title}
         </h1>
+        <div className="mx-auto w-80 rounded-full bg-[#7178AD] overflow-hidden mb-5 drop-shadow-md border-4 border-[#ffffff]">
+          <img src={avatar} alt="Avatar" className="" />
+        </div>
         <div>
-          <h1 className="min-[480px]:text-3xl min-[320px]:text-2xl text-xl font-['Kalam'] font-thin text-[#A6B1E1] animate__animated animate__fadeIn">
+          <h1 className="min-[480px]:text-3xl min-[320px]:text-2xl text-xl font-['Kalam'] font-thin text-[#ffffff] animate__animated animate__fadeIn">
             <span>I'm a </span>
             <span>
               <Typewriter
