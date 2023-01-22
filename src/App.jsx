@@ -37,7 +37,7 @@ function App() {
           {info.title}
         </h1>
         <div className="mx-auto w-80 rounded-full bg-[#7178AD] overflow-hidden mb-5 drop-shadow-md border-4 border-[#ffffff]">
-          <img src={avatar} alt="Avatar" className="" />
+          <img src={avatar} alt="Avatar" className="hover:rotate-12 transition ease-in-out drop-shadow-lg " />
         </div>
         <div>
           <h1 className="min-[480px]:text-3xl min-[320px]:text-2xl text-xl font-['Kalam'] font-thin text-[#ffffff] animate__animated animate__fadeIn">
@@ -50,7 +50,7 @@ function App() {
                 loop={0}
                 cursor
                 cursorStyle="."
-                typeSpeed={40}
+                typeSpeed={50}
                 deleteSpeed={40}
                 delaySpeed={3000}
               />
