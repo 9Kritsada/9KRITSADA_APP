@@ -36,12 +36,13 @@ function App() {
         <h1 className="min-[380px]:text-6xl min-[320px]:text-5xl text-4xl font-bold mb-5 drop-shadow-lg text-[#DCD6F7] subpixel-antialiased animate__animated animate__fadeInDown animate__delay-.5s  ">
           {info.title}
         </h1>
-        <div className="mx-auto w-80 rounded-full bg-[#7178AD] overflow-hidden mb-5 drop-shadow-md border-4 border-[#ffffff]">
-          <img src={avatar} alt="Avatar" className="active:rotate-12 transition duration-300 ease-in-out drop-shadow-lg " />
+        <div className="mx-auto w-80 rounded-full bg-[#7178AD] overflow-hidden mb-5 drop-shadow-md border-4 border-[#ffffff] hover:rotate-[360deg] hover:bg-amber-300 transition duration-1000 ease-in-out">
+          <img src={avatar} alt="Avatar" className=" drop-shadow-lg " />
         </div>
         <div>
           <h1 className="min-[480px]:text-3xl min-[320px]:text-2xl text-xl font-['Kalam'] font-thin text-[#ffffff] animate__animated animate__fadeIn">
             <span>I'm a </span>
+            
             <span>
               <Typewriter
                 words={words.map((e) => {
