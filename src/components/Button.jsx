@@ -1,8 +1,8 @@
 function Button(props) {
   const {name, link, icon} = props
   return (
-    <div className="mb-3">
-      <a href={link} target="_blank" rel="noopener noreferrer" className="font-medium cursor-pointer px-2 py-[.4em] bg-[#DCD6F7] text-[#424874] min-[320px]:mx-[0.25em] mx-[0.45em] rounded drop-shadow-lg text-[12px] hover:opacity-80">
+    <div className="bg-[#DCD6F7] drop-shadow-lg hover:opacity-80 rounded px-2 py-1">
+      <a href={link} target="_blank" rel="noopener noreferrer" className=" text-[#424874] text-[12px] ">
         <i class={`font-semibold ${icon}`}></i> {name.toUpperCase()}
       </a>
     </div>
